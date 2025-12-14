@@ -1,1 +1,133 @@
-__pycache__/*
+# Python standard
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+.eggs/
+.Python
+
+# Virtual environments
+SimpleNet/.venv/
+SimpleNet/venv_*/
+venv/
+venv_*/
+.venv/
+env/
+ENV/
+env.bak/
+*/venv/
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+*.egg
+*.egg-info/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.idea/
+.vscode/
+.spyderproject
+.ropeproject
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Notebook outputs
+*.nbconvert.ipynb
+
+# Build artifacts
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Data directories (ignore dataset files/folders)
+**/train/**
+**/test/**
+**/ground_truth/**
+data/
+dataset/
+datasets/
+images/
+imgs/
+images/
+
+# Project-specific artifact folders
+output/
+results/
+outputs/
+runs/
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+*.t7
+*.pb
+*.tar
+*.ckpt.*
+checkpoints/
+weights/
+saved_models/
+models_weights/
+models/
+
+# ML tooling
+.tensorboard/
+tensorboard/
+wandb/
+.wandb/
+
+# Misc
+*.sqlite3
+
+# data
+bottle/
+cable/
+capsule/
+carpet/
+grid/
+hazelnut/
+leather/
+pill/
+screw/
+tile/
+toothbrush/
+transistor/
+wood/
+zipper/
+
+SimpleNet/MVTec_ad/
